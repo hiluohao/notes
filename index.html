@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="生命在于运动，知识在于积累，一起学习，一起交流。">
+<meta name="keywords" content="罗浩微课堂 罗浩博客 罗浩工作室 罗浩研习社">
+<meta property="og:type" content="website">
+<meta property="og:title" content="罗浩笔记">
+<meta property="og:url" content="/index.html">
+<meta property="og:site_name" content="罗浩笔记">
+<meta property="og:description" content="生命在于运动，知识在于积累，一起学习，一起交流。">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="罗浩笔记">
+<meta name="twitter:description" content="生命在于运动，知识在于积累，一起学习，一起交流。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="/"/>
+
+
+
+
+
+  <title>罗浩笔记</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">罗浩笔记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">每天进步一点点。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/30.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/30.html" itemprop="url">罗浩：明明你很努力的在工作了，可是为什么还是赚不到钱</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T15:08:20+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>很多人工作了四五年，每个月还是只能拿三四千的工资。有些微商做了几年，还是每个月只有三四千的收入。<br>为什么有的微商专业能力不如你，卖货能力也不如你，亲和力也不如你，形象更不如你，但是赚的收入却一直比你高呢！<br>又是什么限制了你的收入呢？<br>为此我特地采访了一些微商人，总结了一些规律，今天跟大家分享一下，原因到底是什么！<br>不是因为他们的能力问题，而是因为她们通常会有以下几个思维。<br>明明你很努力的在工作了，可是为什么还是赚不到钱</p>
+<p>1<br>否定思维<br>那些低收入的微商人，你让她们去做一件事的时候，她们最先思考的，不是怎么去做这件事。<br>而是首先就考虑做这件事中会遇到什么困难，进而她们会列举各种可能会遇到的困难。<br>然后一看到这么多困难，就觉得还是算了吧，这么多困难。我去做的话，好多东西我都不懂， 别人都没做成功，我肯定也很难成功的。<br>抱着这些心态做微商，肯定事情都还没做，她就先被自己吓跑了。<br>她们脑中总是充斥着不可能、怎么办、不会、没想过、不知道等等，这些词汇会让她的大脑停止思考，不会再为结果找答案。<br>不去做等于白搭，所以她们永远都只能看别人做微商月入几万，而自己做微商月收入不足四位数。</p>
+<p>明明你很努力的在工作了，可是为什么还是赚不到钱</p>
+<p>2<br>经常的抱怨<br>月入过万的微商，和那些月入几千的微商，最大的区别也都是在这里。<br>一个是老板的思维，遇到了问题，首先她会觉得是为自己创业，有义务面对这些问题，然后自己去想对策和解决方案<br>而月入几千的微商，遇到了问题，她会觉得这不是她的问题，就只会一味的抱怨，抱怨产品的不好，抱怨自己团队长的问题，她们永远只在别人身上找问题，而刻意回避自己身上的问题。<br>思维方式的不一样，就决定了你的月收入上限。做微商，一定要有老板思维，因为你是在自己创业，为自己打工！！<br>3<br>执行力差<br>许多低阶的微商，做起事情来，总是三天打渔，两天晒网。很多时候，团队长和上面布置的任务，执行力都是十分的差。<br>从来不按时去完成，如果完成了，也只是按部就班的复制黏贴，有时候把包含别人名字的文案和称呼都一起复制了过来，从来就不会自己去努力和思考。<br>执行的时候，也只是为了做做样子，从来就不会从心出来。<br>我们做微商，从来都是为了自己有一个更好的未来，不为谁。认真的执行每一件事情，是对自己，也是对收入，最好的投入。<br>结束语<br>以上的三点，就是我身边的微商，通常赚不到钱的三个原因，仔细对比下你自己，你是不是也是月入不足一万的微商？<br>努力把上面这三个点去贯彻执行，相信你，也将成为一个月入过万的优秀微商！</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/29.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/29.html" itemprop="url">罗浩：连小白的小白都能操作的裂变方法，1000+粉丝3天搞定</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T15:08:18+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>微信营销对于高手来说他关心的是变现是模式，而对于新手小白来说他们最关注的是吸粉。吸粉是营销的首要战役，懂的人觉得这没什么很简单！对不懂的人往往很难突破，今天分享的裂变方法非常的简单。对于小白来说都能轻松的操作快速看到效果。</p>
+<p>我称之为这种推广的方法为“活动裂变”涨粉法</p>
+<p>仅仅通过朋友圈的活动来裂变加粉的方法。</p>
+<p>原来我发现朋友圈里出现很多粉送礼品的活动。</p>
+<p>这个是最常见的案例了，很多人在推广的过程中，都是这样群发广告的，相信大家都见过。</p>
+<p>送某某东西，然后你加完以后它会告诉你今天送完了。然而这种骗人的方法用多了，就没多少人相信了，还有会降低你与粉丝之间的信任度。更别说后期的转化了。</p>
+<p>我们要讲的是下面这种案例，针对自己要吸取的粉丝人群定制的活动。</p>
+<p>案例：</p>
+<p>夏日小清新lomo相机：</p>
+<p>1.参与方式：推见15名女性朋友。</p>
+<p>即可免得</p>
+<p>2.支付10元邮费，当地可自取免邮。活动时间：某时间。</p>
+<p>3.验证信息备注：某某推见。</p>
+<p>上面的案例是通过送礼品活动裂变女粉的方法。</p>
+<p>经过测试使用这个方法三天时间吸粉近1000人，送出去20多台相机。</p>
+<p>为什么这个方法可以成功。我总结了一下</p>
+<p>1.鱼饵的价值</p>
+<p>这个赠品打的是防水这一个特性。市面上基本很少见，很新颖。</p>
+<p>礼品本身给人价值感觉很高，只要15个女性过来就可以获得这个相机。对于某些特别想要的女性粉丝，肯定会努力去推好友了。</p>
+<p>15个好友的设置，难度适中可以接受。</p>
+<p>2.真实性</p>
+<p>营销案例中反复的强调活动的真实性</p>
+<p>营销活动日期的设定，当地可以自提，评论都是在强调活动的真实性，来增加别人的信任感。</p>
+<p>3.活动成本</p>
+<p>说到这种送礼品加好友的方法，肯定涉及到活动成本了。</p>
+<p>那么我们大概来核算一下成本</p>
+<p>这台相机在 阿里巴巴上面的价格 是10元一台</p>
+<p>运费基本上粉丝自己出了，如果你一天量大，它帮你代发运费价格可能比10元还要低。</p>
+<p>这样按10元=15个粉丝来算 平均一个粉丝是6毛 另外还有很多人可能搞不到15个粉丝 所以粉丝的实际成本更低，而且都是精准的女性活粉丝了。这个方法还可以裂变下去，加快你的加粉速度 你说这样算下来值吗？</p>
+<p>如果要自己实操的话，加女粉你可以直接复制上面的方法。</p>
+<p>有的朋友如果是需要加其他类型的粉丝，那也没关系。</p>
+<p>归根到底就是去寻找对应的鱼饵，在寻找鱼饵的时候主要注意亮点上面提到过。</p>
+<p>1.鱼饵的价值 这个价值是鱼饵在消费者心里的价值。</p>
+<p>2.鱼饵的实际价值 这个价值关系到你添加粉丝的成本。（价格+运费）</p>
+<p>把这两点如果结合在一起控制的好的话，会有意想不到的效果。</p>
+<p>选赠送的产品去哪里选择呢？</p>
+<p>大家先想一下如果自己的粉丝会对什么东西感兴趣呢？</p>
+<p>例如，拿妈妈粉来说，妈妈一般对宝宝用品，家居用品的，新鲜的事物都比较有兴趣。</p>
+<p>那么我们就按照这个思路去寻找这些货源就行了。</p>
+<p>这里按下图地方去看看。</p>
+<p>全是潮流的新鲜商品。分类也很明细，大家可以根据自己的需求选择。根据我们的研究，选品要么选择粉丝们特别感兴趣的商品，要么选择让人觉得价值很高的商品。这样他们才有动力为了自己想要的东西去介绍好友，从而产生裂变。</p>
+<p>另根据实际成本在该平台选品建议选择50元以下的，选好以后直接去阿里巴巴上面淘一般都会在20元以下。那边都是做批发的也有很多商家支持一件代发。</p>
+<p>与卖家谈好一件代发的资费问题（通常是把要发的地址与商品做到一个表格上发给上家一次发出，这样更便宜），就可以准备具体的活动方案与文案发圈子了。</p>
+<p>有的同学的要问了，做这种活动是否朋友圈有大量粉丝为基数才能玩。</p>
+<p>其实不需要的，我们来发散一下思维。</p>
+<p>这个方法难道真的只有在自己的朋友圈才可以玩吗？</p>
+<p>现在我们把这个方法做一个变异，直接往人多的地方去贴，让裂变的速度更快。</p>
+<p>什么百度贴吧啊，什么豆瓣啊，各种手机app啊。关键在于你的文案给人产生的真实度有多少</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/28.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/28.html" itemprop="url">罗浩：谋定而后动，给创业小白的前期建议</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T15:08:15+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>近几年，总有人说经济不景气，上班不好干，越来越多的人，开始想要有自己的事业，尤其是现在的年轻人依旧带着无所畏惧的勇气和朝气，准备闯出自己的一番事业。今天，小编就立足现在最火的餐饮创业，聊一下创业初期都需要注意什么。</p>
+<p>餐饮行业一直都是一个朝气的行业，所谓衣食住行是永不过时的创业选择。其中，如果要投资住房，要有大量的资金投入，衣服要有极强的审美和把握潮流的天分，出行就更不用说了，要求一个人八面玲珑，而且朝夕不定的工作时间，让很多人也望而却步。相比较之下，餐饮创业是最简单也是最直接的方式了。但是想要成功的开一家餐饮店也依旧不是一件容易的事情。首先，店面的位置，装修，进货，营销，人力，菜单，品控等等，要求创业者参与到每一个环节中。看到这一系列的事情，的确是会让疲惫不堪？所以，在这里小编要问一句：“想要投身餐饮行业的你，真的准备好了吗？”</p>
+<p>准备好了话，小编希望在创业之前，你能够做好下面四点：</p>
+<p>1，了解成本控制。</p>
+<p>餐饮行业有四高，税高，房租高，成本高，人力高。还有一低：利润低。可以说，投资餐饮行业不是一个几天就能见效的项目。所以，在这样的高压之下，学不会控制成本的话，那么创业必死无疑。虽然做生意的人都知道“钱不是攒出来的，是赚出来的”，但不积跬步无以至千里，不积小流无以成江海。点滴的节约和成本的控制，都能够让你有更多的资金去做真正有效的事情。一个店创造收益的持续性越长，创造收益的投入产出比也高，是存活下去的最有优势的保障。开餐饮店，从来都不是一锥子的买卖，成功是长期积累的成果。</p>
+<p>2，了解竞争对手。</p>
+<p>开餐饮店，你不仅仅要了解自己，了解你的顾客，更重要的是要了解你和一样在奋斗的其他人。不仅仅是你同类型的竞争对手，还有你隔壁的店铺。如果你是一个卖饮品的人，那在同一个区域内。无论是卖汉堡的，卖盒饭的，卖面的都是你要关注的“竞争对手”说不定，哪天人家扩展业务就会营销到你。当然，在不同时间，不同空间，竞争对手不是恒定的，有时候，也许是对手，也可以进行合作，比如说，你和卖汉堡的进行一波联合促销，也会是一个提升自己的机会。所以，这里说的“竞争对视”是告诉你不要只关注自身发展，要时刻关注自己处在什么位置，整合一切能够整合的资源和机会。</p>
+<p>3，了解经营环境和管理对销售的影响。</p>
+<p>这一点更多的是针对于你的消费者，现在是一个感官之上的时代，更多的消费者不仅仅满足于买到合适自己的产品，更多的是关注于店面的服务和新奇性。尤其在各大社交平台和音频视频平台的崛起，信息的传播已经和过去不可同日而语。所以对于店面经营者来说，如果想要维护好自己的顾客，就一定要立足客户心理，让自己保持时刻的竞争力。</p>
+<p>4，对生活的激情和预期。</p>
+<p>最后一点听起来有点不可思议，但是这是最重要的一点，因为餐饮行业绝对绝对不是一个安逸的，舒适的行业。也绝对不是一个朝九晚五的工作，餐饮开店绝对是一个7*24，全年午休的行业。所以想要投身之前，一定要有对生活的激情，和自己想要达到什么标准的预期，最重要的是一定要坚持下去，才能获得成功。</p>
+<p>开一家餐饮店，是一个双刃剑，既然选择了他，就要在享受它的同时承受它带来的困难和辛劳。不过，选择所爱，坚持所爱，奋斗所爱，才是生活的真谛。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/27.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/27.html" itemprop="url">罗浩：人脉就是钱脉，那我们如何去积累和拓展这个脉呢？</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T13:30:45+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>大家都已经认识到“人脉就是钱脉”，也希望多多拓展和积累人脉。那么，拓展人脉有哪些渠道呢？</p>
+<p>渠道一：同学渠道<br>上过大学的人，建议你们参加参加你们大学的校友会。现在很多大学都有校友会，有总会，还有各地区的分会。<br>比如：武汉大学，有武汉大学总会，也有武汉大学深圳分会。在大学的校友会里，你可以认识很多很多校友，包括一些师兄、师姐。很多校友都是很优秀的，他们毕业之后，分布在各行各业里，在各自的领域取得不错的成绩。这些都是非常优质的高端人脉。<br>所以，快去参加你们大学的校友会吧，多多认识你们的校友，越多越好。<br>很多公司的老板和高管，都喜欢去读MBA，为什么？除了学习深造之外，其实更重要的是，读MBA是一种认识高端人脉的好方式。<br>去读MBA的大部分是一些公司的老板、高管，你去读MBA，就会和他们成为同学，而且这些MBA也会有校友会，你不光可以认识同一届的MBA同学，而且还有机会认识往届的同学，以及将来入学的新同学。去读MBA，相当于你进入了一个高端人脉的圈子。<br>另外，像一些社会的总裁培训班等等，报名学习的也是一些层次比较高的人，这些也是比较优质的高端人脉。<br>所以，如果你有这方面的机会，一定要好好珍惜，充分融入这些校友会，尽可能多地认识那些校友、同学。<br>渠道二：工作渠道<br>工作中，你会认识你的同事、客户、合作伙伴、行业里的同行。你可能还会有机会去出差、去开会交流、去参加一些展览会等等，那么，在出差、开会、参加展览会的过程中，又有机会去认识更多客户、同行。这些都是很好的拓展人脉的机会和渠道。</p>
+<p>如果你是在大公司里工作，那么恭喜你，你能认识的人要比那些在小公司里工作的人要多得多。<br>比如：一个大公司有几百名、上千名员工，而一些小公司只有几十名员工。而且，大公司因为品牌知名度高，客户都知道，所以你比较容易接触客户，客户也比较容易认可你们公司的品牌和产品，而且公司的品牌会成为你个人的信任背书，客户对你的信任感要强一些，印象也要深一些。相对来说，在小公司工作，这些就比较难了。<br>所以呢，尽量去一些大公司里工作，在工作中，尽可能多的去认识你的同事、你的客户，你的同行。有的人性格比较内向，在大公司里工作，平时只和自己小部门的同事接触，只认识那几十个人。这样很浪费机会。<br>懂得人脉价值的人，一定要会把握这种工作机会，在公司里活跃，广泛认识不同部门的同事，交际能力强的人，很有可能可以认识多达上百个同事。将来，这些同事能力获得成长，跳槽到其它公司，成为高管，他们就都变成了你的高端人脉了。<br>就算这些同事没有那么牛，但是，你认识的同事越多，对你将来的帮助就越大。<br>比如：你将来自己出去创业做生意，那么这些老同事是不是就可能成为你潜在的合作伙伴、潜在的目标客户呢？<br>所以，一定要珍惜工作的机会，尽可能多去认识各位同事。另一方面，认识同事，比认识陌生人要容易得多。你们在同一家公司上班，是同事，互相认识是不费什么劲的，是最容易的。你要是去大街上认识一个陌生人，你想想维度会增加多少？<br>渠道三：各种社交场合<br>比如：在朋友聚会的时候，你可以认识到朋友的朋友；<br>又比如，你参加一些运动俱乐部，像业余的羽毛球队啊，足球队啊等等，这些也是社交场合，你在里面可以认识很多队友；<br>还有，有些人会去参加志愿者协会，这个也很好，你可以在协会的活动中认识很多志愿者，甚至可以认识你当志愿者时帮助的人，一个人在遇到问题的时候曾得到了志愿者的帮助，那么他对志愿者是非常有好感的，所以这也是认识新朋友的一个不错的机会。<br>另外，有的人喜欢读书，就去参加书友会；有的人喜欢钓鱼，就去参加钓友会；有的人有车，喜欢自驾旅游，就参加车友会……参加这些组织，都可以认识到很多新朋友。<br>所以，有空的时候，多多去参加各种聚会，各种社团活动，只要你积极主动的走出去，就有很多机会认识到新朋友。<br>渠道四：朋友介绍<br>比如，你想学摄影，想认识懂摄影的人，那么你可以问问你的朋友，看看他们有没有认识懂摄影的人，如果有，请他帮忙介绍你们互相认识。<br>还有一些做销售的，他想认识某个公司的老板，他就可以在他的朋友圈里打听，看看哪个朋友认识那个公司的老板，请他帮忙牵个线。通过朋友介绍，是一种很重要的拓展人脉的方式，大家可以多试试。<br>渠道五：在公共场合<br>在公共场合，主动出击，去认识陌生人<br>在街上、在书店、在酒店、在餐厅、在机场、在车站、在酒吧、在舞会、在旅途中等等，在这些公共场合，都可以主动与别人搭讪、聊天。<br>当然，你要真诚，不要急功近利，而且搭讪的话题和方式要自然，不要让人误会，以为你是骗子。<br>主动去认识陌生人，是需要勇气和胆量的，也是培养开朗性格的一种好办法。经常这样锻炼，你的胆子会越来越大，你会越来越开朗，越来越自信。<br>渠道六：网络渠道<br>微信群、QQ群、论坛、贴吧、微博等等，通过网络可以很快认识到很多新朋友。<br>你在网络上真诚地和别人沟通，双方自然而然的就会认识。<br>像有些朋友做微商，就是重点通过网络去拓展人脉。他们会加入很多微信群、QQ群，在群里聊天，去论坛和贴吧上发帖和别人交流。网络是非常便捷高效的平台，它能让我们在很短的时间内接触到大量的人。比如：你加入一个群，通过聊天，可能你一天就可以认识几十个人。而且你不用出门，很方便。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/26.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/26.html" itemprop="url">罗浩：朋友圈广告应该这样发，才能够吸金哦</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:30+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>很多微商朋友做不好，其实大部分是朋友圈没经营好，很多内容和图片都是复制粘贴，没有结合自己朋友圈粉丝的消费水平和消费特征。<br>有时候，广告发多了不仅没人看，还被好友屏蔽；还有些人怕屏蔽干脆不发，但不发圈你的产品能卖出去吗？<br>今天给各位3个朋友圈的广告公式，同样是广告，通过这3个公式，可以打动你朋友圈的粉丝忍不住想买你的产品。<br>一、推荐式文字模板<br>公式1：我用过+我的收获+适合人群+立即购买的理由<br>例：<br>在学习社群，第一天打卡，我就激活了很多微信好友，尤其是有些加上很久却从未聊过天的人，点赞数、评论量都蹭蹭往上涨。按照模版来拆解：<br>我用过：在社群学习<br>我的收获：第一天，好友互动增强了<br>适合人群：想通过朋友圈变现的人<br>立即购买理由：报我的名有优惠<br>二、五感文字模板<br>公式2：我用过+五感描述+使用效果<br>解释下五感，五感就是：形、声、闻、味、触，也即人的五种感觉器官：视觉、听觉、嗅觉、味觉、触觉。<br>例：<br>我最近用过一款面膜，感觉挺不错。这款面膜包装并不华丽，素净的珍珠白外包装袋，开口处撕开，随着一声清脆的“兹拉”声，就闻见了带着茉莉和绿茶淡淡的香味。<br>把面膜纸抽出来，发现整个面膜纸也比一般的面膜纸要厚，摸在手上，还有点软，面膜纸自带一点弹性，显然上面的精华含量也比一般的精华含量要高，精华滴在手上，有一点黏黏的感觉，却一点都不腻，把面膜敷在脸上15分钟，轻轻撕开，皮肤喝饱了水，水润Q弹。<br>按照模板我们来拆解：<br>我用过：最近用过的，使用感很好的面膜<br>视觉：这款面膜包装并不华丽，素净的珍珠白外包装袋<br>听觉：清脆的“兹拉”声<br>嗅觉：闻见了带着茉莉和绿茶淡淡的香味<br>触觉：摸在手上，还有点软；精华滴在手上，有一点黏黏的感觉<br>使用效果：皮肤喝饱了水，水润Q弹<br>五感的描述给足了人画面感，通过五感的描述，客户都能自行脑补出那个面膜。<br>三、临门一脚式<br>公式3：解决顾虑+活动信息+限时限量<br>例：<br>比如某门课程要599元，看起来有点小贵，怎么卖？按照模版来拆解：<br>解决顾虑：拿一个常见的例子做比较，用了一个学员的案例来加强解决顾虑<br>活动信息：原价599元，今天早鸟价499元；算账法，分解到12节课的金额就比较小<br>限时限量：活动只限今天<br>这就是今天分享的3个简单易学的公式，你不妨按这3个公式来试发朋友圈，说不定有意想不到的收获哦。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/25.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/25.html" itemprop="url">罗浩：如何利用音乐快速引流宝妈粉丝，日引流200+</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:28+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>有句话我说过很多次了；“不是引流的平台不多，而是你根本不静下心来去实操”。互联网上这么多的平台你别想着都要去吃，你只要抓住一个狠狠执行就很不错了。你看看，贴吧，百度知道，qq群，社交app这些是养出了多少百万的人。</p>
+<p>我们很多人仅仅只是知道，但是始终不下手去做，今天我给大家用网易云音乐进行引流宝妈粉丝。</p>
+<p>至于宝妈粉能拿来干什么就不用我多说了把，在市场上宝妈粉的价格是最贵的。买买买。。。。这不就是他们最擅长的吗，利用的好她们的变现的能力是非常的强的。</p>
+<p>就像，我有个朋友前期她也没想着赚钱，就是在直播平台上教别人如何化妆积累了大批的宝妈粉丝。后来她卖化妆品通过一次活动就是几十万的收入，三天三夜都是在发货。。</p>
+<p>还有个朋友她是卖蜂蜜的，前期也是积累的宝妈粉，蜜蜂的很多功效是适合宝妈的。。她赚的不多，月收入也达到了过万，至少好过上班把。</p>
+<p>有了流量，有了粉丝。你的后端威力是非常大的。她不仅仅可以卖蜂蜜，还可以卖特产，卖零食。零食对于宝妈来说也是反复消费的。所以啊，大家的思维一定要放大，赚钱不能急，先贡献价值。别做一笔卖卖，用户付款仅仅是生意的开始。</p>
+<p>那么我们怎么通过一个简单的方法来获得精准的宝妈粉丝呢，来为我们的项目助力起飞。</p>
+<p>看图，这一看也是在这上面卖育儿培训课程的团队做的引流，直接让他们关注微信公众号，然后自己就可以在公众号上进行内容的传递和产品服务的营销。</p>
+<p>这是对方在微信公众号菜单栏挂的一个荔枝微课堂的专栏课程，已经有28888人学习，并且这个专栏课程，也已经举办了10期。</p>
+<p>所以，我们也可以直接利用对方的这种吸粉方法为自己的微信公众号或者微信号吸粉导流。</p>
+<p>具体怎么操作呢？其实很简单，就是复制对方的玩法！</p>
+<p>第一步 注册网易云帐号</p>
+<p>首先肯定得要注册上账户啊，这个帐号可以是自己手机注册，也可以是微信或者是扣扣登入。这个应该很简单，不用多说把。看下图。</p>
+<p>第二步 申请开通专栏</p>
+<p>在开通专栏之前呢，你最好是要做点公众号，博客，论坛这些都一些信任方面的背书。如果没有这没关系，直接来申请也是可以的</p>
+<p>在这里要说明的是，我们在申请的时候千万别留任何的广告！！！不然会被驳回的，等申请下来了，你再去改介绍把你的公众号放上哦，这样就没事。</p>
+<p>这样，前期的准备工作就做好了，而且用户也有渠道能看到你更多的内容，基本的布局做好后，你就可以进行第三步咯。。</p>
+<p>第三步，持续的跟新同步内容</p>
+<p>对于不能持续原创内容的童鞋，我给出下面的几个方法。。。</p>
+<p>讲究的就两个字“准”、“久”、“搬”，具体如何理解，如下解释：</p>
+<p>准：就是标题要吸引人，并且让对方从标题中，就能看出内容是否是他所需。</p>
+<p>久：就是要长期坚持更新，这种平台，对于新注册用户的流量有一定限制，但是当你的内容逐渐更新得越多，质量越好的时候，就能够获得平台大量的流量推荐。</p>
+<p>这是某个音乐专栏的播放量，每个都是过万的播放。之所以有真么高的播放量，并不是他的内容多有创意，二是对方每天准时准点更新，并且做了音质处理。其实，他的内容，都是直接搬运。</p>
+<p>搬：也就是直接做搬运工，我们自己去做专栏，不可能所有的内容都出原创，所以我们得学会搬。怎么个搬法，最直接的，就是文字、音频（其他平台）、视频全部转化音频（自己录制）。</p>
+<p>就像上面的儿歌一样，从书本、论坛、付费专栏…等，把内容搬运下来，然后自己在录制一遍，上传到自己的音乐专栏。</p>
+<p>通过这种笨拙的方法，让自己持续地出优质内容，从而获得平台的免费流量推荐。只要有流量推荐，那么我们留在专栏介绍处的微信公众号或者微信号，就能够被听我们录制内容的用户看到。</p>
+<p>既然对方都可以通过这种方式为自己的微信公众号导粉卖166元的专栏课程，都可以卖出28888人学习，并且举办了10期。那么我们是不是也可以，直接将粉导入微信公众号或者微信号，卖我们自己的专栏课程或者产品呢？</p>
+<p>所谓最好的引流方法，就是直接将别人已经测试出结果，并且操作项目赚到钱的方法挖掘出来为自己用即可。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/24.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/24.html" itemprop="url">罗浩：如何把你从赚钱变值钱</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:26+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>你如果有一个绝活一个技能，那就能轻松的赚钱，你有一套创业的模式，才能让你的事业做大，一个专业的高手 如何才能借助商业的模式，让自己的事业扩大呢</p>
+<p>过去几年的经验，我总结了一套模式，测试了3年，效果都非常好，今天来和大家分享下</p>
+<p>这段模式分为3个步骤，第一步，你要打造一个细分领域传播的第一人，第二步，用培训，快速的打造细分领域的社群，第三步，建立一个细分领域的行业平台</p>
+<p>第一步，我以前讲过一个牛逼的理论，叫站位理论，就是你要抢占第一的位置，在中国这个互联网市场上，每一个细分领域，只有老大，没有老二，特别是大家经常玩的各种app，大家知道的都只是第一个的那个，说起这个，前段时间，有一个兄弟，来咨询我，希望帮他找风险投资，想扩大规模，不过这人比较老实， 和我讲，在他那个领域里排名第二，我就问他，能不能把你现在的业务在细分一下，拿出一个排名第一的数据出来，他说，可以的，我的项目细分下，排名就是第一了，然后拿了一份报表给我，</p>
+<p>大家想，如果你是投资人，看到一个排名第二的要你投资，那么你肯定会想，我为什么要投资你第二的，不投资哪个第一去呢</p>
+<p>但是当一个细分领域还没有明确老大的时候，你一定不要谦虚，把牛皮吹起来，一定要说自己是老大，这样你就会获得最好的市场机会和资源，那么怎么抢到第一位呢，这里和大家来讲解下</p>
+<p>品牌站位的模型，操作主要有5个环节，第一个你要占据一个好的名字，有一个好的名字，传播起来非常轻松容易，第二个，你要占领互联网上所有搜索的位置，别人不管是在哪里，搜索全部是你，第三个，要占领人心，要借力去影响人心，第四个，占领大的趋势，借势快速的发展，第五个，你要占领市场，垄断运营</p>
+<p>过去几年，我就用品牌站位理论，给很多个人和企业提供咨询服务，收费也是相当可观的，站位只是打造细分领域传播第一人的第一步，你打造个人品牌一共分为5个步骤，1.站位，找到最好的定位，占住行业第一，2.思想，你策划系统的理论，抓住人性的核心，3.武器，思想要变成武器，你要有持久自动的传播，4.推广，方法加上好的资源就能快速的见到好的效果，5.你要系统化的运营</p>
+<p>要完成这5个步骤，就需要好的方法配合好的资源，然后狠狠的执行，最后成功就是时间的问题，</p>
+<p>这里和大家讲下特别的地方，这个地方我用的是传播第一人，而不是某个领域的第一人，为什么？因为有很多领域要做到老大的话，靠的不是自己牛逼，更加重要的是要整合更多牛逼的人，因为技术上比你牛逼的人多得是，文无第一，武无第二，谁都不会服气谁，所以你要把自己定位成传播第一人，你的形象就是这个领域最卖力的推广者，你是为了整个行业去做贡献，你的专业技术可以不是第一，但是你的营销上面比同行厉害，所以你就可以去整合牛人</p>
+<p>我之前就讲过，现在的社会不缺产品和服务，现在最重要的是你要把你的产品和广告第一时间出现在消费者的面前，</p>
+<p>第二步，你用培训快速的打造细分领域的社群，培训加社群的玩法，是目前最简单有效的放大企业规模的玩法，不管是个人还是企业，都可以用这个玩法让自己的收入获得几十倍上百倍的玩法，比如我一个企业家学员，做窗帘的，他有很多代理商，然后就请了培训师让代理商来上课，结果很多人还不乐意，，采用了我们的社群模式以后，直接招募500个合伙人，一人一万块钱，不但500w到手，而且他们还非常认真的来学习，更加主动的去开展这个市场，当然在这个过程中，设计课程是非常重要的，在设计课程的时候，专业知识只占了5%比这个更加重要的是，改变对方的思维模式，只有思维模式改变了，行动才会改变，那么你的课程才会有真正的价值，就比如我们现在的学员，学习了我们内部的课程，有的人，一年后2年后，都成了百万富翁了，</p>
+<p>他们见到我之后，就跟我讲，当时教他们的营销技巧，和互联网创业套路，虽然让他们快速的赚到了钱，但是对他们最大的改变就是，我教会他们的思维方式，其实我有一套非常牛逼的课程设计模型，可以快速帮一个人设计出一套，受欢迎的课程，课程出来之后，需要一个更加牛逼的裂变模型，来迅速的放大规模，这个我已经验证很多次了，比如之前有个学员，他做一个项目，个人操作的，他可能就在几个月内赚了30-40w，后来他问我，有没有更赚钱的项目，我就和他讲，只要把他的项目裂变下，那么收入就可以翻倍，而不需要变换项目</p>
+<p>第三步，建立细分领域的行业平台，我之前的课程也讲过，有用户的才是平台，没有用户的全是扯淡，通过培训加社群的玩法，你可以迅速积累，几万甚至几十万，有信任的用户，然后就可以打造一个整合行业的平台，很多专业人士有了一点知名度，公司也做的比较大了，可能很赚钱，但是公司并不值钱，这主要有几个原因，1.公司依靠老板个人，如果老板勤快点，那收入高点，如果老板出了什么事情，那么收入就无法保证，2.过去所有培训过服务过的客户，都没有沉淀到一个平台上面，导致整个公司没有二次营销的价值，3.发展的目标不够清晰，发展的空间缺乏清晰的规划，做更大的想象力，</p>
+<p>要把你的公司从一个赚钱的公司，变成一个值钱的公司，比如你是个人的创业模式，就可以变成公司的形式，希望这些对大家有所帮助。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/23.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/23.html" itemprop="url">罗浩:如何让自己快速成为某个领域专家</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:23+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>任何一个领域其实都有专家，但很多人对专家这个词，感觉他逼格很高，觉得很高大上的一个人，其实不是的，如果你花很长的时间去专研一个领域，其实你也可以成为这个领域的专家，成为专家，前提是你需要学习的，学习是有方法的</p>
+<p>如果你用对了方法，你只需要3个月的时间就可以成为细分领域的专家，今天就是来分享下如何成为一个领域的专家</p>
+<p>第一个方法，你想要快速学习这个领域最有需求的知识，那你就先找100个这个领域的问题，然后你去查，这个相关的答案，接下来你需要每天写一篇文章，标题就是问题，内容就是你整理的答案，然后用自己的语言再重新写下，比如我们说的自媒体，你找到100个关于自媒体的问题，比如什么是自媒体，自媒体包括哪些，自媒体有什么特点，自媒体需要怎么做，然后你去找答案，找到以后，你就根据每个问题写一篇学习的总结，3个月后，你能够解答这个领域里面最基本的100个问题，那么你就是一个入门级的高手了</p>
+<p>这些问题你从哪里找呢，答案你去哪里搜呢，1.去百度上搜2.知乎上搜3.微信上搜，有了问题，网上也有答案，你学习以后，融会贯通，那么他就变成了你自己的知识了，</p>
+<p>第二个方法，你要去找高手去深入的交流，我在几年前，我是怎么3个月就成为网络营销的高手的呢，1.我每天都会去主动认识一个网络营销的爱好者或者创业者，然后和他们深入的交流没学习他们的优点，同时他们有什么需求我也免费帮忙，之前有很多，有点名气的互联网人物，在他们还没名气之前我都免费的帮助过他们，虽然是免费帮，但是他们帮我快速的积累了能力和人脉，当时我还有一个很好的心态就是，不管自己行不行敢于自己去尝试，因为你去尝试不一定行，但是你不去尝试的话一定不行，</p>
+<p>当时我碰到一个团队，他们做好了商业项目计划书，项目的整个方案，他想融资，我就主动的去帮他们融资，当时我也并没有认识几个投资公司的人，但是没关系啊，我都去联系，发邮件，打电话，一家一家去试，后来确实有几家感兴趣的，开始和他谈了，从这个过程中我也学习了很多东西，所以学习的过程中，你去帮助别人就是在帮助你自己，</p>
+<p>第三个方法，你要通过社群来学习，当时有qq群，把我认识的网络营销的高手，都拉进来，有了这个群以后，我就每天组织话题，让大家交流，每个人都分享自己牛逼的绝活，大家彼此就进步的很快，就是这样通过qq群，社群，交流了几个月，他们会的我也就会了，于是我也就成了在网络营销领域比较牛逼的人了</p>
+<p>第四个方法，就是你要多去实践和总结，中国古代有个典故，交纸上谈兵，讲的就是那个赵括，满脑子的理论，从来不实践，理论比他老爸还牛逼，但是最后打仗的时候，就吃了败仗，所以我们要多实践和总结，学习不能空学习，你只有实践了你才能知道哪些有用和那些没有用，还有那些是关键，更重要的是你能够从这个实践中，再感悟，再总结，也许你就能悟到一些别人不知道的核心秘密，</p>
+<p>特别是互联网这块，你越是做的深入，越发现很多的秘密，这些秘密只有深入的人才知道，当你掌握了核心以后，就可以举一反三，随心所欲的使用这些技能，就像我不只是对互联网有研究，我对中国古代传统的学问也非常感兴趣，比如史记，三国志，资治通鉴，我就经常把里面的人性的智慧和规律给提炼出来，然后自己放到生活中运用，不管是结交人才，还是做营销，效果都是非常让人诧异的，如果你能体会到其中的奥秘的话，你会非常的惊讶，你会成为这个领域的专家</p>
+<p>人和人之间，最大的区别，其实不是智商和情商，而是反省的能力，悟性就是你不断的反省出来的，</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/22.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/22.html" itemprop="url">罗浩:如何利用赠品营销，让你的生意火爆起来？</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:21+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>现在做项目,客户资源是我们首先遇到的头疼问题,现在单个客户的获取成本越来越高，而我们创业者手上的资金又是有限的，那么怎样花费最少，做到有的放矢的吸引并且留住客户呢?</p>
+<p><img src="http://iluohao.cn/wp-content/themes/dux/img/thumbnail.png" alt=""></p>
+<p>今天分享一个策略:赠品引流。</p>
+<p>以实体店的生意为例，如果你想为自己的服务或产品提供赠品,用来吸引客户，促进转化成交，尤其是用成本比较低的赠品来获得大量的流量，海浪就只有一个建议:塑造价值，并且让客户能感受到，认可和受益。</p>
+<p>有两点必须得注意，</p>
+<p>1、不要为了赠送而赠送，也不要为了免费而免费，你的用户对一个东西感兴趣，最根本的不在于它是免费或者赠送的，重要的是他看到了价值，是他需要的;</p>
+<p>2、计算出锁定一个客户为你带来的价值(也就是利润)，这个利润的周期可以是一年的或是终身的，以这个作为参考，计算出对应的成本,从而打造吸引目标客户进店的引流产品。</p>
+<p>有个汽车美容店的老板就是运用这个策略，让本来生意惨淡的店面，脱胎换骨，每天客流不息。</p>
+<p>具体做法:先计算出吸引来一个精准客户能赚到多少钱? 一个客户过来，一年的时间，要洗车、保养、修车，包括消费跟车相关联的产品，平均下来，大概能赚到3000元，这是第一步。</p>
+<p>接下来，做更深入的数据分析，统计店面对于客户的转化率，最终分析出，如果来店里100个客户能成交30个，也就是30%的成交率。</p>
+<p>此时,一个有意思的结果呈现在眼前，假如引流的赠品成本是30元，那么吸引100个客户的成本就是3000元，只需要最低成交一个客户就是保本的，而如果是30%的准化率，那赚得钱是很可观的。</p>
+<p>接下来这家店开始设计引流的具体产品，在店里把所有的产品和服务梳理清晰，发现最基础的消费就是洗车和消毒，洗车的成本单次5元左右，市场价20元左右。消毒的服务成本在一次5元左右，市场价在60元左右。</p>
+<p>最后这家店把洗车和消毒捆绑起来，包装成一个5次洗车和1次消毒的服务卡，市场价值在160元，160元的免费服务对于有车一族来说还是相当有吸引力的。</p>
+<p>这样开始就适当做些精准推广，比如老客户可以领取送给有车的朋友，还跟一些附近的酒店、咖啡馆、会所合作，送给他们的会员，凭服务卡可以到这家汽车美容店享受免费的服务。</p>
+<p>结果,可想而知，店里的生意一下子火爆起来。</p>
+<p>接着我们的思路再延伸一下，如果我们的生意是在长久做着，那么就可以想到，难道锁定的客户只会消费一年吗? 只要维护的好，有可能消费2年、3年，甚至更长的时间，而且客户还会介绍新的朋友过来，所以一个精准客户，后端的价值才是巨大的。</p>
+<p>项目没有好坏,生意也不分实体还是互联网，赚钱和不赚钱的区别只在于思维模式的不同，商网笔记持续为你分享自媒体实战运营、及创业顶级资讯，我是海浪，感谢你的阅读和分享。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="/21.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="罗浩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="罗浩笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/21.html" itemprop="url">罗浩:躺着也能日吸粉300+，这才是闷头赚大钱</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-08T12:06:18+08:00">
+                2018-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/创业/" itemprop="url" rel="index">
+                    <span itemprop="name">创业</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>我今天讲的这个话题是大家比较关注的：关于微信推广。</p>
+<p>对于微信营销推广，微信引流。我从刚开始一直到现在，最深的一个感悟：玩微信营销，就是需要两手抓。一个就是品牌，另一个就是数据库。这个品牌是什么意思呢？</p>
+<p>品牌数据库两手抓</p>
+<p>比方说你组建了一个团队，打个比方就叫做某某，那么别人想了解你就会在互联网上去搜你。会在百度，会在360上搜索一下，某某团队等等。那搜一下你如果说有很多你的东西，这就在无形之中建立了一种信任感。</p>
+<p>他搜索到你之后，有很多的东西都呈现在他的面前，看完这些东西之后，对他有价值，然后他就找你了。最后会通过对你的了解，直接产生买单。这里就得出一个结论：一定要不断的去释放。</p>
+<p>现在很多人做微信营销呀，他比较急功近利。觉得就发一篇文章然后，大概有五六个人看，觉得没有多少流量，他就不发了就不做这个工作了。但是时间长了之后你不做这件工作，别人搜的时候他就搜不着。你的成交率就会下降，你的客户量也会下降，软文推广，所有人必须要持续去做的。尽量的让别人搜都能够搜到你的很多资料。</p>
+<p>这就是微信自动培育了，就不需要写销售信了。在没买单之前就看到你很多东西，听了你很多东西就觉得你这个人不错，而且从你的东西当中受益了，人家就自愿打款买单了。微信品牌一定要做的深入人心。一手做品牌，不断的释放，不管有效果没效果，必须每天都要去做。还有就是客户的数据库。这个客户数据库，我们的思想是精细化，目标化，你比如你通过微信来做的，这么大一个圈子，一天增加不了三十人五十人，那就相当于根本没有做。现在我们这里就是必须完成几百人，有一个目标每天坚持去完成。这个后续我会去分享。</p>
+<p>具备爆品的思维</p>
+<p>还有就一定要具备微信爆品的思维，很多人做微信营销他胡乱的去做一上午一下午他没有任何效果，我们应该杜绝胡乱去做啊。</p>
+<p>我们在淘宝上也看到一个羽绒服店或者说一家衣服店为什么有的产品他卖一块钱，卖一块钱就是为了吸引更多流量，去他的店。除了买在一块钱的东西之外其他的衣服他看不看？有没有买的欲望？又有了，所以在一块钱，是为了引流客户的，但我们做互联网的也是一样，那你有没有爆品。</p>
+<p>前段时间的，我们出来一个天涯引流秘籍，天涯应该具体怎么做呀，然后呢，设计了一个电子书，设计一个电子书的封面封皮，简单一弄。然后呢，写一段话，天涯引流秘籍，如何从天涯上引到大批量的客户。如何通过天涯，让你不再缺客户，每天多少多少人，写得非常有吸引力但是这电子书确实是有价值的都是我们自己实战的经验。然后呢我们就送这本电子书。你想想发广告，你会不会被踢？</p>
+<p>但是如果说我们送一个天涯引流秘籍，回个天涯两个字，就给，这不是就能够达到一个很好的引流效果啊。还有一个让大家更加不屑的方法。一个群当中有五百人，但是在线的会不会达到一二百人啊，那针对在一二百人在线的。我们不用软件，我们就用手工的方式，一个图片一个图片就是天涯引流秘籍，然后加上一段话然后我们复制一下，用手工的方式给一个群当中的在线的人，在线的我们就要逐一给他发过去。我们发一百人，会不会有十几个人主动的找你来要秘籍啊，一定可以。但是如果说你去发软文搞定二十个人，这需要很长一段时间积累的，但是你通过这种方式逐一地去开发客户。</p>
+<p>项目不同而我们设计的爆品不同。这个爆品，就是非常有吸引力的赠品非常有吸引力的。这个是我们用来开发微信客户的。大家在做过线下业务员有些朋友，那你做线下的这些业务员的时候是不是每天要去开发客户啊，你要去很远很远才见到一个客户，和他沟通，和她聊天也不一定能成交。但是我们在网上只要动一动鼠标就可以开发一个潜在客户，但是我们大家就觉得这件事情是非常痛苦的。难道不值得去做的，大家思想都出了问题，没有用一个平常心来开发客户，就出问题了。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">罗浩</p>
+              <p class="site-description motion-element" itemprop="description">生命在于运动，知识在于积累，一起学习，一起交流。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">30</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">罗浩</span>
+
+  
+</div>
+
+
+  <div class="powered-by">罗浩博客</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">每天进步一点点 &mdash; <a class="theme-link" target="_blank" href="http://hiluohao.cn/">创业笔记</a></div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
